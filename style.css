@@ -1,0 +1,14 @@
+textarea {
+  width: 40%; /* overrides cols */
+  /* resize: none; */
+}
+pre code {
+  font-family: monospace;
+  background: grey;
+  color: white;
+  font-size: 2rem;
+}
+
+select {
+  font-size: 2rem;
+}

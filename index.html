@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <style></style>
+  <script src=""></script>
+  <body>
+    <form>
+      <textarea
+        name="message"
+        placeholder="Write your message here"
+        rows="3"
+        cols="25"
+      ></textarea>
+      <form>
+        <button type="submit">Click me</button>
+      </form>
+
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"
+        target="_blank"
+        >More about the <code>&lt;button&gt;</code> element</a
+      >
+    </form>
+    <form>
+      <select id="type-selector">
+        <option value="">Pick a type</option>
+        <option>hidden</option>
+        <option>text</option>
+        <option>search</option>
+        <option>tel</option>
+        <option>url</option>
+        <option>email</option>
+        <option>password</option>
+        <option>date</option>
+        <option>month</option>
+        <option>week</option>
+        <option>time</option>
+        <option>color</option>
+        <option>checkbox</option>
+        <option>radio</option>
+        <option>file</option>
+        <option>submit</option>
+        <option>image</option>
+        <option>reset</option>
+        <option>button</option>
+        <option>number</option>
+        <option>range</option>
+      </select>
+    </form>
+    <h4>The code we need for this &lt;input&gt;-element</h4>
+    <pre><code>&lt;input type="<span class="selected-attr"></span>" name="swiss"&gt;</code></pre>
+    <h4>How it looks</h4>
+    <form id="showElement"></form>
+
+    <form>
+      <input type="checkbox" id="w-label" name="w-label" value="with a label" />
+      <label for="w-label">With a label (Click-click the label / +UX)</label>
+      <input
+        type="checkbox"
+        id="no-label"
+        name="no-label"
+        value="without a label"
+      />No label
+    </form>
+  </body>
+</html>
